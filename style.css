@@ -14,7 +14,7 @@ html {
 .side_box {
   background-color: black;
   border: 1px solid teal;
-  min-width: 25%;
+  min-width: 30%;
   min-height: 75vh;
 }
 
