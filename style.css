@@ -14,7 +14,7 @@ html {
 .side_box {
   background-color: black;
   border: 1px solid teal;
-  width: 30%;
+  min-width: 25%;
   min-height: 75vh;
 }
 
@@ -44,8 +44,8 @@ html {
 }
 
 #menu {
-  width: 100px;
-  padding: 50px;
+  width: 80px;
+  padding: 30px;
   padding-top: 1px;
   list-style-type: none;
   display:none;
