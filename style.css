@@ -1,0 +1,63 @@
+html {
+  background-color: teal;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  color: yellow;
+  width: 100%;
+  height: 100%;
+}
+
+.side_box {
+  background-color: black;
+  border: 1px solid teal;
+  min-width: 25%;
+  min-height: 75vh;
+}
+
+.head,
+.slogan {
+  background-color: black;
+  border: 1px solid teal;
+  min-height: 40vh;
+  padding: 1rem;
+}
+
+#menu_tog {
+    width: 200px;
+    height: 300px;
+}
+
+
+
+
+#menu_tog a {
+  text-decoration: none;
+  color: yellow;
+  transition: color 0.3s ease;
+}
+#menu_tog a:hover {
+  color: teal;
+}
+
+#menu {
+  width: 100px;
+  padding: 50px;
+  padding-top: 1px;
+  list-style-type: none;
+  display:none;
+}
+
+#menu li {
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+i:hover {
+    cursor: pointer;
+    color: teal;
+}
+
